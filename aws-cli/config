@@ -1,8 +1,0 @@
-[default]
-region=us-west-2
-output=json
-
-[profile marketingadmin]
-role_arn = arn:aws:iam::123456789012:role/marketingadmin
-source_profile = default
-mfa_serial = arn:aws:iam::123456789012:mfa/jonsmith
